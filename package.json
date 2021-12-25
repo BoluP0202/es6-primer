@@ -2,18 +2,19 @@
   "name": "es6-primer",
   "version": "1.0.0",
   "description": "ES6 Primer",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+              },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BoluP0202/es6-primer.git"
-  },
+                },
   "author": "Bolu :)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BoluP0202/es6-primer/issues"
-  },
+          },
   "homepage": "https://github.com/BoluP0202/es6-primer#readme"
 }
