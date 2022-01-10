@@ -1,8 +1,15 @@
-var logger = output => {
-    console.log(output)
+export class Person{
+    constructor(firstName, lastName, gender, height){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.gender = gender;
+    this.height = height;
     }
-export var appName = "ES6 Review";
-export var dummyFunction = () => {
-    return "I am a dummy function";
+   }; 
+   export class User extends Person{
+    constructor(username, password, firstName, lastName, gender, height){
+    super(firstName, lastName, gender, height);
+    this.username = username;
+    this.password = password;
     }
-export default logger; 
+   } 
